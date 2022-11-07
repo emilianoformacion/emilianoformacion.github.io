@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <p>Nombre: <input type="text" name="nombre" placeholder="Ingrese nombre" size="10" maxlength="10" required/>
+        </p>
+        <p>Edad: <input type="number" name="edad" placeholder="Ingrese edad" min="20" max="40" step="0.5" required/>
+        </p>
+        <p>Hora: <input type="time" name="fecha"/></p>
+        <p><select name="menu[]" multiple>
+            <option value="1">Uno</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+            <option value="4">Cuatro</option>
+        </select></p>
+        <label for="cb1">Casilla 1</label>
+        <input id="cb1" type="checkbox" name="casilla"/>
+        
+        <input type="submit" value="Enviar" name="btSubmit" />
+    </form>
+</body>
+
+</html>
